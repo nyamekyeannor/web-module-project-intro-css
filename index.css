@@ -1,0 +1,149 @@
+/* css reset */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	/* border: 0; */
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px 
+}
+
+/* general styles */
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-family:'Chelsea Market', cursive; 
+    font-size: 7rem;
+    margin-bottom: 5%;
+    
+}
+section{
+    padding: 4% 0;
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+/* Header Section File */
+nav{
+    padding: 2% 0;
+}
+nav a {
+    display: inline-block;
+    width: 10%;
+    padding: 1% 0;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    
+}
+.orange{
+    background-color: #FF764E;
+    margin:0 16%;
+}
+.blue{
+    background-color: #5ED3EB;
+}
+.yellow{
+    background-color: #FFCD69;
+    margin: 0 16%;
+}
+
+
+/* top section styles */
+.top{
+    position: relative;
+}
+.left, .right{
+    display: inline-block;
+    text-align: center;
+}
+.left{
+    width: 30%;
+}
+.left img{
+    border-radius: 50%;
+    width: 80%;
+}
+.right{
+    width: 55%;
+    margin-left: 5%;
+    position:absolute;
+    top:20%;
+}
+.images img{
+    width:30%;
+}
+
+.text h2{
+    margin-bottom: 5%;
+    text-align: center;
+}
+.text p{
+    margin-bottom: 5%;
+    text-align: center;
+    line-height: normal;
+
+}
+/* middle section */
+.middle{
+    background-color: #DDB9A3;
+    color: white;
+    padding: 5% 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.middle p{
+    padding: 1% 1.5%;
+    text-align: center;
+}
+
+/* images section */
+.images{
+    margin: 0 30%;
+    width: 30%;
+    text-align: center;
+    padding-right: 30px;
+}
+.images img{
+    width: 30%;
+}
+.image2{
+    margin-top: 20%;
+}
+
+span{
+    font-weight: bolder;
+}
+
+.bottompictures{
+    background-image: url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
