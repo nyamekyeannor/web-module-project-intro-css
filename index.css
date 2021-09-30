@@ -22,7 +22,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    border:1px 
 }
 
 /* general styles */
@@ -38,8 +38,9 @@ body{
 }
 h1{
     font-family:'Chelsea Market', cursive; 
-    font-size: 5rem;
+    font-size: 7rem;
     margin-bottom: 5%;
+    
 }
 section{
     padding: 4% 0;
@@ -59,18 +60,18 @@ nav a {
     border-radius: 10px;
     text-align: center;
     color: #fff;
+    
 }
 .orange{
     background-color: #FF764E;
-    margin-left: 10%;
+    margin:0 16%;
 }
 .blue{
     background-color: #5ED3EB;
-    margin-right: 0 24%;
 }
 .yellow{
     background-color: #FFCD69;
-    margin-right: 10%;
+    margin: 0 16%;
 }
 
 
@@ -97,4 +98,52 @@ nav a {
 }
 .images img{
     width:30%;
+}
+
+.text h2{
+    margin-bottom: 5%;
+    text-align: center;
+}
+.text p{
+    margin-bottom: 5%;
+    text-align: center;
+    line-height: normal;
+
+}
+/* middle section */
+.middle{
+    background-color: #DDB9A3;
+    color: white;
+    padding: 5% 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.middle p{
+    padding: 1% 1.5%;
+    text-align: center;
+}
+
+/* images section */
+.images{
+    margin: 0 30%;
+    width: 30%;
+    text-align: center;
+    padding-right: 30px;
+}
+.images img{
+    width: 30%;
+}
+.image2{
+    margin-top: 20%;
+}
+
+span{
+    font-weight: bolder;
+}
+
+.bottompictures{
+    background-image: url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
 }
